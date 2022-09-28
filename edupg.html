@@ -1,0 +1,1156 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		<title>
+		Library Search Results
+	</title>
+
+		
+		
+
+		
+		<script language="javascript" type="text/javascript">
+			var _helpRedirectURL = "/learning/getHelpRedirector.do?jspName=%2fui%2fcatalog%2dsearch%2fpages%2fcatalog%5fsearch%2ejsp&locale=en&userType=P";
+			function invokeHelp() {
+				accessHelpURL(_helpRedirectURL);
+			}
+
+			if(!window.APP_PARAMS) {
+                    window.APP_PARAMS = {};
+                }
+			APP_PARAMS["contextPath"] = "/learning"; // This is required for BizX integrated header
+		</script>
+
+		
+
+
+<link rel="SHORTCUT ICON" href="/learning/images/favicon.ico;mod=a2766c10" />
+
+<script type="text/javascript">
+    <!--
+    var ie = navigator.appName.indexOf('Microsoft')!=-1 || navigator.userAgent.lastIndexOf('Trident')!=-1;
+    var ns = navigator.appName.indexOf('Netscape')!=-1 && navigator.userAgent.indexOf('Netscape')!=-1;
+    //var safari = navigator.userAgent.indexOf('Safari')!=-1;
+    var safari2 = (navigator.userAgent.indexOf("Safari") != -1) && (navigator.userAgent.substr(navigator.userAgent.indexOf("Safari/")+7,1) < 5) ? true : false;
+    var safari3 = (navigator.userAgent.indexOf("Safari") != -1) && (navigator.userAgent.substr(navigator.userAgent.indexOf("Safari/")+7,1) >= 5) ? true : false;
+    var moz = !ie && !ns && !safari2 && !safari3;
+    var firefox = moz && navigator.userAgent.indexOf('Firefox');
+
+    function activateF1Help(e, url){
+		if( (ie && e.type==="help") || ( /f1/ig.test(e.key)  )){  // LRN-64593 - use onKeyDown event instead of onKeyPress going forward for modern browsers.  Check IE first so we don't execute the code for both onKeyDown and help events
+			e.preventDefault();
+			e.stopPropagation();
+			accessHelpURL(url);
+		}
+	}
+
+    function accessHelpURL(url){
+        var helpWindow=window.open(url,"help","resizable=yes,toolbar=no,status=no,scrollbars=yes,alwaysRaised=yes");
+//  placeWindow(helpWindow);
+    }
+
+    function isProgramHelp(url) { //temporary workaround for b1405 during Help system transition
+        var suffix = 'Programs';
+
+        return url.indexOf(suffix, url.length - suffix.length) !== -1; //ends with suffix
+    }
+
+    function placeWindow(helpWindow){
+        var leftSide = screen.availWidth-405;
+        var isSafariForHelp = safari;
+        if(isSafariForHelp){ leftSide = leftSide+40; }
+        helpWindow.resizeTo(400,screen.availHeight);helpWindow.moveTo(leftSide,0);helpWindow.focus();
+    }
+
+    function openBrWindow(theURL,winName,features) {if (features==null) {features = 'scrollbars=yes,width=468,height=450';}var newWin = window.open(theURL,winName,features);newWin.focus();return false;}
+    //-->
+</script>
+
+
+        <script type="text/javascript" src="/learning/js/jquery/jquery.min.js;mod=4e1501bc"></script>
+        <script type="text/javascript">
+            if (!window.lmsGlobalAjaxObserver) {
+                var lmsAjaxObserverLabels = {
+                    "error.common.WAFBlockException.errorCode": "There was an error processing your request. Please contact SAP Cloud Support. Error Code: "+"<"+"akamaiMessageCode"+">",
+                    "error.OnlineContent.ScormCommitFailed": "A request to record your progress in the Learning application has failed. Please check your internet connection. If the issue persists, reach out to your internal support organization for further assistance.",
+                    "label.Error": "Error",
+                    "button.OK": "OK",
+                    "warning.OnlineComponent.AndroidBackgroundTimeoutAlert": "Time to refresh. Switch to the original page and then return here to continue the course or you\'ll lose your completion status."
+                };
+            }
+
+        </script>
+        <script type="text/javascript" src="/learning/js/globalAjaxObserver.min.js;mod=44d15dcb"></script>
+        <script type="text/javascript">
+            if (!window.lmsGlobalAjaxObserver) {
+                window.lmsGlobalAjaxObserver = new GlobalAjaxObserver(lmsAjaxObserverLabels).start();
+            }
+        </script>
+        
+
+<script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+
+	
+
+
+				
+<script language="JavaScript" type="text/javascript">
+	BIZX_PING_PARAMS['intergrationMode']=true;
+	BIZX_PING_PARAMS['isCsrfGuardEnabled'] = true;
+	BIZX_PING_PARAMS['ThresholdTime']=300000;
+	BIZX_PING_PARAMS['ServerPingURL']="https://performancemanager4.successfactors.com/sf/ping?company=C0000161248P";
+	BIZX_PING_PARAMS['isLoadLmsInBizXiFrame']=false;
+</script>
+	<script type="text/javascript" src="/learning/js/pingBizx.min.js;mod=7b85cb5e"></script>
+	
+
+
+	
+
+
+
+				
+<script language="JavaScript" type="text/javascript">
+	CSRF_PARAMS['isDomainStrict'] = true;
+	CSRF_PARAMS['debug'] = false
+	CSRF_PARAMS['isTokensPerPage'] = false;
+	CSRF_PARAMS['injectToForms'] = true;
+	CSRF_PARAMS['injectToAttributes'] = true;
+    CSRF_PARAMS['requestURI'] = "/learning/ui/catalog-search/pages/catalog_search.jsp";
+	CSRF_PARAMS['contextPath'] = "/learning";
+	CSRF_PARAMS['servletPath'] = "/learning/ui/catalog-search/pages/catalog_search.jsp";
+	CSRF_PARAMS['domainOrigin'] = "molex.plateau.com";
+	CSRF_PARAMS['tokenValue'] = "44DB-1WJL-ZJGS-ID5I-1LBW-TATL-KEKA-7QIR";
+	CSRF_PARAMS['tokenName'] = "OWASP_CSRFTOKEN";
+	CSRF_PARAMS['injectToXhr'] = true;
+	CSRF_PARAMS['xRequestedWith'] = 'OWASP CSRFGuard Project';
+	CSRF_PARAMS['tokenEncodedParamPair'] = "OWASP_CSRFTOKEN=44DB%2d1WJL%2dZJGS%2dID5I%2d1LBW%2dTATL%2dKEKA%2d7QIR"
+	
+</script>
+	<script type="text/javascript" src="/learning/js/csrf_guard.min.js;mod=15e5faf3"></script>
+	
+
+
+
+
+			<script>
+				$("html").attr("lang", "en").attr("dir", "ltr");
+				$(document).ready(function () {
+					$("body").addClass("");
+				})
+			</script>
+
+<script type="text/javascript" src="/learning/js/common.min.js;mod=f4b7053c"></script>
+
+
+<script type="text/javascript" src="/learning/js/custom_injection.min.js;mod=0"></script>
+
+
+		
+		
+
+<script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+<script src="/learning/user/js/learner.js"></script>
+<script type="text/javascript">
+var lmsTopWindow = window.topWindowHelper ? topWindowHelper.getWindow() : window.top;
+window.interstitial = {"whitelistedUrls":["'http://xyz.plateau.com:9090'","'http://abc.plateau.com:8080'"],"urlPrefix":"/interstitial?interstitialDest=","whitelistedDomains":["'performancemanager4.successfactors.com'","'successfactors.com'","'plateau.com'"],"version":"1.0"};
+function waitForInterstitialResult () {
+    return new Promise(function (resolve, reject) {
+        lmsTopWindow._setInterstitialResult = function (interstitialUrl) {
+            window.interstitialResult = interstitialUrl || false;
+            if (interstitialUrl) {
+                resolve(interstitialUrl);
+            } else {
+                reject(false);
+            }
+        };
+    });
+}
+function isExternalURL(url){
+	var startWithHttp = /^(https?:)?\/\/.*/i; //if start with http:// or https://
+    var checkInterstitial = (startWithHttp.exec(url) != null);
+    if (checkInterstitial) {
+        var loc = window.location;
+        var port = loc.port;
+        if (url.indexOf(loc.origin || (loc.protocol + '//' + loc.hostname + (port ? ':' + port : ''))) === 0) {
+            //url start with the same domain as current window origin, so it is an internal URL.
+            checkInterstitial = false;
+        }
+    }
+return checkInterstitial;
+}
+
+function getHost(str) {
+	// get host name from the given http url string based on the regex in
+	// RFC2396 Appendix B.
+	var parser = /^(?:([^:\/?#]+):)?(?:\/\/([^:\/?#]*))?([^?#]*)(?:\?([^#]*))?(?:#(.*))?/;
+	var result = str.match(parser);
+	return result[2];
+}
+
+function splitUrl(url) {
+	if (url && url.indexOf('//') >= 0) {
+		url = url.substring(url.indexOf('//') + 2);
+	}
+	return url;
+}
+
+function removeQuotes(url){
+	if(url){
+		url = url.substring(1, url.length - 1);
+	}
+	return url;
+}
+
+function isBlank(str) {
+	return (!str || /^\s*$/.test(str));
+}
+
+function checkInterstitialURL (contextPath, url){
+	var interstitial = window.interstitial;
+	var isEnableInterstitialForExternalURL = document.getElementById("isEnableInterstitialForExternalURL").value;
+	if((isEnableInterstitialForExternalURL === "true") && isExternalURL(url)){
+		if(url && interstitial){
+        		var whitelistedDomains = interstitial.whitelistedDomains;
+        		var urlHost = getHost(url);
+        		if (urlHost && whitelistedDomains) {
+                	for (var i = 0; i < whitelistedDomains.length; i++) {
+                		var domain = whitelistedDomains[i];
+                		domain = removeQuotes(domain);
+                		if (urlHost.indexOf(domain, urlHost.length - domain.length) !== -1) {
+                			return url;
+                		}
+                	}
+                }
+
+                var whitelistedUrls = interstitial.whitelistedUrls;
+                urlSplit = splitUrl(url);
+                if (whitelistedUrls) {
+                	var urlLowCase = urlSplit.toLowerCase();
+                	for (var i = 0; i < whitelistedUrls.length; i++) {
+                		var whitelistUrl = removeQuotes(whitelistedUrls[i]);
+                		whitelistUrl = splitUrl(whitelistUrl);
+             			if (!isBlank(whitelistUrl)	&& urlLowCase.indexOf(whitelistUrl.toLowerCase()) === 0) {
+                			return url;
+                		}
+                	}
+                }
+        	}
+
+        	return contextPath + interstitial.urlPrefix + encodeURIComponent(url);
+	}
+	return url;
+}
+lmsTopWindow.waitForInterstitialResult = waitForInterstitialResult;
+lmsTopWindow.checkInterstitialURL = checkInterstitialURL;
+</script>
+
+<input type="hidden" id="isEnableInterstitialForExternalURL" name="isEnableInterstitialForExternalURL" value="false"/>
+
+		
+		
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+    if(!window.APP_PARAMS) {
+        window.APP_PARAMS = {};
+    }
+    APP_PARAMS['authenticatedUserThemeID'] = null;
+    APP_PARAMS['unauthenticatedUserThemeID'] = null;
+</script>
+
+
+		
+		
+        
+            
+                
+            
+        
+		
+		
+		
+			<link rel="stylesheet" href="/learning/ui/common-ui5/css/ui5_theme_overrides.min.css;mod=719cf580" type="text/css">
+		
+
+		<style type="text/css">
+			#headerAreaDiv {
+				margin: 0;
+			}
+			#menuAreaDiv {
+				z-index: auto;
+			}
+			form {
+				display: block;
+			}
+			#footerAreaDiv {
+				display: none;
+			}
+            #content .sapMShellBrandingBar {
+                display: none;
+            }
+			/* Fix for LRN-31212. Remove after 1805 UI5 upgrade. */
+			.sapUiFormResGridCont > div {
+				font-size: inherit !important;
+			}
+			/* Prevent legacy styling from overriding UI5 app styling. */
+			body:not(.sapUiBody) a,
+			body:not(.sapUiBody) a:visited {color:#2b6fc1; text-decoration:none;}
+			body:not(.sapUiBody) a:hover {color:#0000CC; text-decoration:underline;}
+			body:not(.sapUiBody) INPUT{font-size:11px;}
+			body:not(.sapUiBody) input[type|="text"], body:not(.sapUiBody) input[type|="password"], body:not(.sapUiBody) input[type="text"]{
+				border:1px solid #CCC;border-bottom:1px solid #999;border-top:1px solid #999;border-left:1px solid #999;
+			}
+
+
+			
+			
+				
+                    #bizx-shared-header,
+                    .sapUiBody .globalHeaderHeight,
+                    .sapUiBody .globalHeaderFullWidthBackground {
+                        
+                            min-height: 53px;
+                        
+                    }
+				
+			
+
+
+
+
+		</style>
+		
+		
+		<script language="JavaScript" type="text/javascript">
+		    window['sapUi5App'] = true;
+			window["sap-ui-config"] = {
+			    libs: "sap.m",
+			    language: window.getLanguageCodeForUi5("en")
+            };
+		</script>
+		
+
+		<script id="sap-ui-bootstrap" type="text/javascript"
+				src="/learning/ui/sapui5/MOD%5fX%5f57b2e774/sap-ui-core.js"
+				data-sap-ui-preload="async"
+				data-sap-ui-rtl="false"
+				data-sap-ui-theme="sap_fiori_3"
+				data-sap-ui-theme-roots='{"sap_fiori_3" : {"sap.m": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/", "sap.ui.core": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/" ,"sap.ui.unified": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/", "sap.ui.table": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/", "sap.uxap": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/", "sap.f": "https://performancemanager4.successfactors.com/public/ui-dcss/C0000161248P/_/3q!74w99zmxhq*ext.useModernStylesInLegacy!!kT5DvOm!1117Xd!T1T1BTRBPCPT!10!0P3cPPR3i!19AtmO!wq6TSD1wef_!1-1!1O0G-1!1O0G-1!1!!1HL__-1!-1!01Mfb_8y8y-1!Y_fP=fvz=fzUXJTtX_bS=viY8y8y7az!SD15Qpy-1!wdDA0!7az!Xe_O-1!0!7az!tnlRVyl28w0!G5EuugmY1wef_8y8yndnWcn_!8y8y9i_!Le_=EWezPcPc0+0+1px+0!18y8y8y8y8y8y-1!C=3FC=3FULrUuTJX-1!1-1!SL18y8y2GriXePI8y8yXePI7az!8y8y-1!!-1!8WTx-1!Oych-1!OychSDSDSLSL0!LbyV-1!SL1WF!DERNPCPT!1ea_K0!-1!SL1Dq=YDq=YCbNWVrFSvWmOPcBuU7S3xH=WFqBkTciNtHaeIXmYDq=YDq=Y-1!srZIYChAz8Oc1-1!0!7az!!!!1pCpC01QZHv8y8yMcvcMcvc8y8yMcvcSKbCJbiQSKbC0+0+1px+0!011!DE!!!!NO!SD1DE!!DE0SL!1cPcPpCpC-1!0!a!GWOJx8=kQO0MUnIA9Tw!1DE!DE!1!!-1!-1!a6WQ!!1a6WQ2CXh!25iwW_n=1!2WQoFH!/merge_v1/verp/ui/sapui5-aux/resources_1.0.7/theming!/verp/ui/sapui5-main/resources_1.84.22/resources/" }}'
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-xx-supportedLanguages="default">
+		</script>
+        <script>
+     sap.ui.getCore().attachInit(function () {
+        var aMonkeyPatches = [];
+        if (!Element.prototype.getAttributeNames){
+            // Resolve sap.m.Tree exceptions in Chrome 60 after SAPUI5 1.71
+            aMonkeyPatches.push('sap/sf/learning/ui5/patch/chrome60-polyfills-PATCH');
+        }
+        if (sap.ui.getCore().getConfiguration().getVersion().compareTo("1.90") < 0) {
+            // Port OpenUI5 commit: https://git.wdf.sap.corp/c/openui5/+/5259829/1/src/sap.ui.core/src/sap/ui/core/format/DateFormat.js
+            // Related Defect: LRN-111594
+            // X-Ray Test Case IDs: LRN-112197, LRN-112198
+            // TODO: Remove after SAPUI5 1.90
+            aMonkeyPatches.push("sap/sf/learning/ui5/patch/sap-ui-core-format-DateFormat-PATCH");
+        }
+        if (aMonkeyPatches.length) {
+            sap.ui.loader.config({
+                paths: {
+                    'sap/sf/learning/ui5': '/learning/ui/common-ui5/resources/MOD%5fX%5fda99471a/'
+                }
+            });
+            sap.ui.require(aMonkeyPatches);
+        }
+     });
+</script>
+		
+		
+		
+
+		
+		
+
+
+
+		<!--Only apply site theme for site catalog-->
+
+		<script language="JavaScript" type="text/javascript">
+			if(!window.APP_PARAMS) {
+				window.APP_PARAMS = {};
+			}
+			APP_PARAMS['contextPath'] = '/learning';
+			APP_PARAMS['userType'] = 'user'; // needed for i18n ajax calls
+			APP_PARAMS['accessibilityEnabled'] = false;
+			APP_PARAMS['isBrowseCatalogGA'] = true;
+			APP_PARAMS['primaryLocaleID'] = "English";
+			APP_PARAMS['secondaryLocaleID'] = null;
+			APP_PARAMS['studentID'] = "21113990";
+			APP_PARAMS['shoppingAccountID'] = 'SHPNGACCTID-386891';
+			APP_PARAMS['goalID'] = null;
+			APP_PARAMS['menuItem'] = null;
+			APP_PARAMS['menuGroup'] = null;
+			APP_PARAMS['managerRole'] = 'SUPERVISOR';
+			APP_PARAMS['currencyId'] = "USD";
+			APP_PARAMS['viewMode'] = "LISTVIEW";
+			APP_PARAMS['catalogSearchTypeAheadEnabled'] = true;
+			
+			// Enabled filters variables
+			APP_PARAMS['deliveryMethodEnabled'] = true;
+			APP_PARAMS['locationEnabled'] = true;
+			APP_PARAMS['sourceEnabled'] = true;
+			APP_PARAMS['subjectAreaEnabled'] = true;
+			APP_PARAMS['ratingFilterEnabled'] = false;
+			APP_PARAMS['sortOrder'] = 'Relevance, Title, Price, Tier'.split(',');
+			APP_PARAMS['studentSortByOptions'] = '[0, 1, 2, 3]'.replace(/[\[\]]/g, "").split(', ');
+			APP_PARAMS['pageSizeOptions'] = '[5, 10, 25]'.replace(/[\[\]]/g, "").split(', ');
+			APP_PARAMS['userPageSize'] = 10;
+			APP_PARAMS['pageSize'] = 10;
+			APP_PARAMS['dateFormat'] = "M/d/yyyy";
+			APP_PARAMS['requestedFrom'] = null;
+			APP_PARAMS['isRequestFromTrainingNeeds'] = null;
+			APP_PARAMS['keywords'] = null;
+			// Social Learning
+			APP_PARAMS['socialSearchEnabled'] = false ;
+
+			//for BIZX
+			APP_PARAMS['externalRequestFromCDP'] = false;
+			APP_PARAMS['isLearningReassignmentWarningEnabled'] = false;
+			APP_PARAMS['isSupervisor'] = true;
+			APP_PARAMS['externalAddToLearningPlanLabel'] = null;
+			APP_PARAMS['actingStudentID'] = "21113990";
+			APP_PARAMS['currentStudentID'] = "21113990";
+			
+			// SO Price Configuration
+			APP_PARAMS['currencySelectionSupported'] = false;
+			APP_PARAMS['showPricingDetails'] = true;
+			// is html desc enabled
+			APP_PARAMS['isEnableHTMLDescriptions'] = true;
+			
+			//'Access Calendar of Scheduled Offerings' workflow 
+			APP_PARAMS['isCourseCalendarWorkflowEnabled'] = true;
+			
+			// Ratings configuration
+			APP_PARAMS['showRatings'] = true;
+			
+			// Duration configuration
+			APP_PARAMS['showDurationDetails'] = false;
+			
+			// HTML language tag used in the template.
+			APP_PARAMS['languageTag'] = "en";
+			
+			// First day of the week, based on configuration.
+			APP_PARAMS['firstDayOfTheWeek'] = 1;
+			
+			// Check whether Catalog 3.0 is enabled.
+			APP_PARAMS['catalogSearch3Enabled'] = true;
+			
+			// Excluded weekdays for the calendar
+			APP_PARAMS['excludedWeekDays'] = '[1, 7, 0, 0, 0, 0, 0]'.replace(/[\[\]]/g, "").split(', ');
+			
+			// max characters for description
+			APP_PARAMS['displayMaxItemDescriptionLength'] = 250;
+			
+			// Check whether Browse is enabled.
+			APP_PARAMS['browseCatalogEnabled'] = false;
+			
+			// DB time zone offset
+			APP_PARAMS['dbTimeZoneOffset'] = 0; // Negate the time zone offset here because the Javascript Date protoype calculates offset inversely relative to Java's TimeZone class.
+			
+			// Student time zone offset
+			APP_PARAMS['studentTimeZoneOffset'] = 300;
+			
+			// Total time zone offset (difference between DB and student time zone offsets)
+			APP_PARAMS['totalTimeZoneOffset'] = -300;
+			
+			//Should Currency values be shown to users
+			APP_PARAMS['showPricingToUser'] = true;
+
+			// Check if Course Home is enabled
+			APP_PARAMS['isCourseHomeEnabled'] = false;
+
+			//Check if Blended Course Home is enabled
+            APP_PARAMS['isCourseHomeBlendedEnabled'] = false;
+
+		</script>
+		<script type='text/javascript'>
+		    $(function() {
+                if (/fromSF=Y/ig.test(window.location.href)) {
+                    try {
+                        var oCurrentEntry = historyManager.peek();
+                        var oEntryAppData, oCatalogSearchState;
+                        if(oCurrentEntry) {
+                            oEntryAppData = oCurrentEntry && oCurrentEntry.additionalInfo && oCurrentEntry.additionalInfo.appData;
+                        }
+                        if(oEntryAppData && oEntryAppData.fromCatalogSearch3) {
+                            oCatalogSearchState = oCurrentEntry.params;
+                        }
+                        historyManager.cleanup();
+                        if(oCatalogSearchState && oCatalogSearchState.hasOwnProperty("catalogSearchResultEntries")) {    // do not apply model data from browse
+                            historyManager.pushState(window.location.href, "GET", oCatalogSearchState, null, {appData: {fromCatalogSearch3: true}});
+                        } else {
+                            historyManager.pushState(window.location.href, "GET", null, null, {appData: {fromCatalogSearch3: true}});
+                        }
+                    } catch(ex) {
+
+                    }
+                }
+		    });
+		    sap.ui.loader.config({
+                paths: {
+                    'sap/sf/learning/ui5': "/learning/ui/common-ui5/resources/MOD%5fX%5fda99471a/",
+                    'sap/sf/learning/browsecatalog': '/learning/ui/browse-catalog/resources/MOD%5fX%5fda99471a/',
+                    'sap/sf/learning/catalogsearch': '/learning/ui/catalog-search/resources/MOD%5fX%5fda99471a/'
+                }
+            });
+			sap.ui.getCore().attachInit(function() {
+				sap.ui.require(["sap/m/Shell","sap/ui/core/ComponentContainer"],function(Shell,ComponentContainer) {
+					var fnLoadCatalog = function() {
+						sap.ui.component({
+							height : "100%",
+							name : "sap.sf.learning.catalogsearch",
+							async:true
+						}).then(function(oCatalogComponent){
+							var oCatalogContainer = new ComponentContainer({
+								component: oCatalogComponent
+							}), oShell = new Shell({
+								app: oCatalogContainer,
+								appWidthLimited: false
+							});
+							oShell.placeAt("content");
+						});
+					};
+					if (!window["sap-ui-debug"]) {
+						sap.ui.require([
+							"sap/sf/learning/ui5/preloader/common-ui5-preload",
+							"sap/sf/learning/catalogsearch/preloader/catalog-search-preload"
+						], fnLoadCatalog, fnLoadCatalog);
+					} else {
+						fnLoadCatalog();
+					}
+				});
+			});
+	    </script>
+	
+		
+	</head>
+	<body class='sapUiBody ' >
+
+		
+			
+	    		<div id="globalHeaderFullWidthBackground" class="globalHeaderFullWidthBackground"></div>
+			
+		
+        <div class="globalLighting1">
+            <div class="globalLighting2">
+		
+		
+			
+				
+
+                
+                    
+    
+
+
+<!--  START header.inc -->
+
+
+
+
+<script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- START tooltip.inc -->
+<div id="dhtmltooltip"></div>
+<!-- END tooltip.inc -->
+
+
+<noscript>
+	<div>JavaScript must be enabled in order to use the system.</div>
+</noscript>
+<style>
+	.hiddenHeaderLinks {font-size:1px !important;position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;}
+	.shownHeaderLinks {font-size:12px !important;height:auto;width:auto;line-height:inherit;font-size:inherit;position:static;}
+</style>
+<script type="text/javascript">
+<!--
+var turnAccOnText = "Turn Accessibility On",
+	skipAllNavLinksText = "Skip All Navigational Links",
+	skipHeaderNavLinksText = "Skip Header Navigational Links",
+	environmentInfoText = "Environment Info",
+	enableContentDebugText = "Enable Content Debug";
+
+function showNavItem(navId, navText){
+	var hiddens = document.getElementById(navId).getElementsByClassName("hiddenHeaderLinks");
+	for (var i=0; i < hiddens.length; i++) {
+        hiddens[i].className="shownHeaderLinks";
+    }
+}
+
+function hideNavItem(navId, navText){
+    var showns = document.getElementById(navId).getElementsByClassName("shownHeaderLinks");
+    for (var i=0; i < showns.length; i++) {
+		showns[i].className="hiddenHeaderLinks";
+	}
+}
+
+if (navigator.userAgent.indexOf('MSIE') > -1) {
+	document.body.className += ' ie-only';
+}
+
+function swapAccessibilityImage(isHover, id){
+	document.getElementById(id).src = isHover ? '/learning/user/images/Icon_Accessibility_16px_hover.png;mod=dfe8f855' : '/learning/user/images/Icon_Accessibility_16px.png;mod=d8c01905';
+}
+
+function changeAccessibilityAndRelaodPage(){
+	if(jQuery){
+		var changeAccModeOptions = {
+			type: "POST",
+	        contentType: "text/html; charset=utf-8",
+	        dataType: "html",
+	        url: "/learning" + "/changeAccessibilityMode.do?fromAjax=true",
+	        error: function(e){
+	        	alert("Error: " + e);
+	        }
+		};
+		
+		$.ajax(changeAccModeOptions).done(function(){
+			document.location.reload(true);
+		});
+		
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function endDelegation(){
+	if(window.opener){
+		window.opener.cancelDelegation();
+	} else { //in exceptional cases opener will not be set (usually related to cross site security), so simply close window
+		window.close();
+	}
+	
+	return false;
+}
+
+function endProxy() {
+	if (window.opener) {
+		if (window.opener.cancelProxy) {
+			window.opener.cancelProxy();
+		} else if (window.opener.parent.mainFrame && window.opener.parent.mainFrame.cancelProxy) {
+			window.opener.parent.mainFrame.cancelProxy();
+		}
+	} else { //in exceptional cases opener will not be set (usually related to cross site security), so simply close window
+		window.close();
+	}
+	
+	return false;
+}
+//-->
+</script>
+	
+ 
+		
+			
+
+
+
+
+
+        
+<!-- Adding inline CSS to add styles to the header div immediatly on page rendering, without this,
+divs will not have height till CSS is loaded and it expands on CSS load resulting in bad UX-->
+<style>
+    #bizx-shared-header,
+    .globalHeaderHeight,.globalHeaderFullWidthBackground {
+        height: 83px;
+    }
+
+    .fioriShellBarEnabled #bizx-shared-header,
+    .fioriShellBarEnabled .globalHeaderHeight,.globalHeaderFullWidthBackground {
+            height: 74px;
+    }
+
+    .globalHeaderHeight,.globalHeaderFullWidthBackground {
+       position: absolute;
+    }
+
+    .globalPlacemat {
+        min-height: calc(100vh - 110px);
+        margin: 0 15px;
+        padding-top: 10px;
+    }
+    #content.globalPlacemat {
+        padding-top: 0;
+        border: none;
+    }
+
+    #headerAreaDiv {
+        position: absolute;
+    }
+    #footerTable{
+    	display: none;
+    }
+</style>
+
+<div id="bizx-shared-header"></div>
+
+
+
+
+
+<script type="text/javascript">
+    if(!window.APP_PARAMS) {
+        window.APP_PARAMS = {};
+    }
+    APP_PARAMS["contextPath"] = "/learning";
+
+	if(false){
+		APP_PARAMS["userType"] = 'admin'
+	} else{
+		APP_PARAMS["userType"] = 'user'
+	}
+	APP_PARAMS["LogoutUrl"] = "https://performancemanager4.successfactors.com/sf/logout?company=C0000161248P";
+	APP_PARAMS["LogoUrl"] = "/learning/image.do;mod=80e8ede4?type=UserLogo";
+	APP_PARAMS['sfBaseURL'] = "https://performancemanager4.successfactors.com";
+	APP_PARAMS['bizXHomeLink'] = APP_PARAMS['sfBaseURL'] + "/sf/home?company=C0000161248P";
+
+    sap.ui.loader.config({
+        paths: {
+            'sap/sf/learning/ui5': '/learning/ui/common-ui5/resources/MOD%5fX%5fda99471a/',
+            'sap/sf/learning/header':'/learning/ui/header/resources/MOD%5fX%5fda99471a/'
+        }
+    });
+    sap.ui.getCore().attachInit(function() {
+		sap.ui.require(['sap/sf/learning/ui5/helper/BizXIntegrationUIHelper'], function(BizXIntegrationUIHelper){
+			var oSettings = {
+				baseUrl: "https://performancemanager4.successfactors.com",
+				companyId: "C0000161248P",
+				headerContainerId: "bizx-shared-header",
+				selectedSubTabId: APP_PARAMS['selectedSubMenuId'],
+				isAdminUser: false,
+				userId: "21113990",
+				isExternalUser: false,
+				languageKey: "en",
+				themeInitAPI: "https://performancemanager4.successfactors.com/public/theme-api/init/C0000161248P"
+			}
+			BizXIntegrationUIHelper.renderHeader(oSettings);
+			
+
+
+		});
+	});
+
+	jQuery(document).ready(function(){
+		var $ui5Content = $(".lms-ui5-content");
+		if($(".globalPlacemat").length == 0 && $ui5Content.length == 0){
+			var $headerDiv = jQuery("#bizx-shared-header");
+			var $placematDiv = jQuery('<div class="globalPlacemat"></div>');
+			$placematDiv.append($headerDiv.nextAll());
+			$placematDiv.insertAfter($headerDiv);
+		}else{
+			$ui5Content.addClass("globalPlacemat");
+		}
+		if($(".globalHeaderFullWidthBackground").length == 0 && $ui5Content.length == 0){
+			console.log("BeginAddBackgroundDiv");
+			$("body").prepend('<div id="globalHeaderFullWidthBackground" class="globalHeaderFullWidthBackground"></div>')
+		}
+		console.log("EndRender");
+	});
+
+
+
+</script>
+
+
+
+
+
+<div id="headerAreaDiv" style="" class="" >
+	<div class="HeaderDivLeft">
+			
+		
+			<div role="region" aria-label="Accessibility Controls" class="globalPortletBody" style="float:left; padding-right:10px;">
+				<a id="accessibility" 
+					onfocus='showNavItem("accessibility",turnAccOnText)' 
+					onblur='hideNavItem("accessibility",turnAccOnText)' 
+					onclick='return changeAccessibilityAndRelaodPage()'
+					href="/learning/changeAccessibilityMode.do" 
+					class="HeaderLink link">
+						<span class="hiddenHeaderLinks">Turn Accessibility On</span>
+					</a>
+			</div>
+		
+		<td>
+			<a id="enableContentDebug"
+				aria-label="Enable Content Debug"
+				title="Enable Content Debug"
+				role="link"
+				onfocus='showNavItem("enableContentDebug", enableContentDebugText)'
+				onblur='hideNavItem("enableContentDebug", enableContentDebugText)'
+				onclick="window.open('/learning/tools/client-logging-config.jsp','jsletEnableDebugPage', 'width=800,height=600,top=0,left=0,toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1'); return false;" href="javascript:;"
+				class="HeaderLink">
+				<span class="hiddenHeaderLinks">Enable Content Debug</span>
+			</a>
+		</td>
+	</div>
+	 
+
+
+	<div style="clear:both;height:0px;"></div>
+	
+	
+	
+</div>	
+
+<form name="learnerCatalogSearchForm" method="post" action="/learning/user/catalog/createSearchResults.do" style="display:inline">
+<input type="hidden" name="OWASP_CSRFTOKEN" value="44DB-1WJL-ZJGS-ID5I-1LBW-TATL-KEKA-7QIR">
+        <div>
+			<input type="hidden" name="studentID" value="21113990" />
+			<input type="hidden" name="searchType" value="SIMPLE" />
+			<input type="hidden" name="instructorLed" value="on" />
+			<input type="hidden" name="online" value="on" />
+			<input type="hidden" name="other" value="on" />
+			<input type="hidden" name="blended" value="on" />
+			<input type="hidden" name="curricula" value="on" />
+		</div>
+</form>
+		
+
+		
+
+
+
+	<img id="pingBizxImage" height="1" width="1" style="display:none;" src="https://performancemanager4.successfactors.com/sf/ping?company=C0000161248P");
+
+
+
+
+				 
+
+<!--  END header.inc -->
+    
+
+
+
+
+<!-- START menu.inc -->
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// This is used in learner.js
+	var isLMSLoadedInBizXiFrame = false;
+</script>
+<script type="text/javascript" src="/learning/user/js/learner.min.js;mod=bad08470"></script>
+
+
+<script language="JavaScript" type="text/javascript">
+var CSRF_PARAMS,BIZX_PING_PARAMS;
+if(!CSRF_PARAMS) 
+{
+CSRF_PARAMS = {};
+}
+
+if(!BIZX_PING_PARAMS) 
+{
+BIZX_PING_PARAMS = {};
+}
+</script>
+
+
+
+
+
+
+<script type="text/javascript" language="javascript" src="/learning/js/jquery/plugins/jqModal/jqModal.min.js;mod=3ca22d24"></script>
+<link rel="stylesheet" type="text/css" href="/learning/css/popups.min.css;mod=13feebb9"  />
+
+<script type="text/javascript">
+<!--
+var siteUser = false;
+var tileUIEnabled = true;
+var isMaintenancePopupShown=false;
+	$(document).ready(
+		function(){ 
+			
+            //if we have some background defined , we should not override it . (goal wizard needs this)
+            if($("#bodyDiv").attr('class') == null){
+            	$("#bodyDiv").addClass('standardBackground');
+            }
+            
+            
+	        startSessionTimer(window);
+			$(document).ajaxComplete(function(){
+	        	if(sessionTimer != null){//Only Reset the Session Timer If it already started
+	        		startSessionTimer();
+	        	}
+	        });
+            
+
+            
+            
+		}
+	);
+//-->
+</script>
+
+
+
+<script type="text/javascript">
+<!--
+// keep track of the current layer, if one exists
+var _currentLayerID = null;
+if (!_currentLayerID && window.name == "detailWindowBuffer") { _currentLayerID = "detailWindow"; }
+// we store open/closed state in the layerStates object
+var layerStates = new Object();
+
+var detailIndex = "";
+var isDetailWindow = window.name && (window.name.indexOf("detailWindowBuffer") != -1);
+
+if (debuggingON && window.console) console.info("page loaded, isDetailWindow == " + isDetailWindow);
+
+var closeHtml = '&larr;&nbsp;Close';
+var openHtml = 'Open&nbsp;&rarr;';
+var contextPath = '/learning';
+
+var sessionTimeoutDuration = 1680000;
+var extendSessionAlertMsg = "Your session will expire in two minutes and you may lose changes you have made to the current page. Click OK to extend your session.";
+var sessionExpiredAlertMsg = "Your session has expired. Please login again.";
+var sfServerPingURL=null;
+
+sfServerPingURL = "https://performancemanager4.successfactors.com/sf/ping?company=C0000161248P";
+
+var userLoginURL = "/user/login.do";
+var userTimeoutURL = "https://performancemanager4.successfactors.com/sf/learning?company=C0000161248P";
+
+
+window.pslBlankURI = '/learning/images/blank.html;mod=b6cae4ef';
+
+
+window.pslHistoryFrameSrcURIPrefix = '/learning/flex-bin/history/historyFrame.html?';
+//-->
+</script>
+
+
+
+
+
+
+
+				 
+
+
+
+
+
+
+
+
+<!-- END menu.inc -->
+
+
+
+
+
+				
+
+
+
+
+			
+		
+
+		<div role="main" tabindex="-1" id='content' class="lms-ui5-content" style="height: 100%">
+		</div>
+
+		<div id="test">
+		</div>
+
+		
+		
+		
+			
+				
+    <!-- START footer.inc -->
+<div id="footerAreaDiv">
+<table class="FullWidth" role="presentation" border="0" id="footerTable">
+  <tr>
+    <td class="LeftSpacing"></td>
+    <td height="10"></td>
+    <td class="RightSpacing"></td>
+  </tr>
+  </table>
+  </div>
+  <!-- END footer.inc -->
+
+
+			
+		
+
+		
+
+		
+		
+		<style>
+			#content {
+				
+				
+			}
+		</style>
+		
+		<link type="text/css" rel="stylesheet" href="/learning/ui/catalog-search/resources/css/grouped_catalog_search_css_xml.5e5f3881f10d95d0fa3191421c2c48d4.merged.css;mod=deb850c8"/>
+
+
+	
+
+		
+		
+		
+			
+				
+		<script type="text/javascript">
+			var sfSessionStorageId = 'LMSBrowserHistoryManager';
+
+        </script>
+        <script type="text/javascript" src="/learning/ui/common/js/grouped_history_manager_js_xml.9fa8b6e1e4f69bd592021a1e4c5c0a54.merged.js;mod=290997bc"></script>
+
+		<script type="text/javascript">
+		    window.historyManager = LMSBrowserHistoryManager.getInstance();
+        </script>
+
+			
+		
+        
+		<script>
+            $("html").attr("lang", window.getLanguageCodeForUi5("en"));
+			$(document).ready(function(){
+        		var isLoginOnSite_ui5 = false;
+        		isLoginOnSite_ui5 && $('#headerAreaDiv') && $('#headerAreaDiv').css('position','relative');
+        		isLoginOnSite_ui5 && $('.HeaderTableContainer') && $('.HeaderTableContainer').css('background','transparent');
+        		isLoginOnSite_ui5 && $('body.sapUiBody') && $('body.sapUiBody').addClass('globalBackground');
+        	});
+		</script>
+
+        </div>
+        </div>
+
+	</body>
+</html>
